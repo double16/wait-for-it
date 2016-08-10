@@ -1,4 +1,13 @@
-`wait-for-it.sh` is a pure bash script that will wait on the availability of a host and TCP port.  It is useful for synchronizing the spin-up of interdependent services, such as linked docker containers.  Since it is a pure bash script, it does not have any external dependencies.
+`wait-for-it.sh` is a sh compatible script that will wait on the availability of a host and TCP port.  It is useful for synchronizing the spin-up of interdependent services, such as linked docker containers. The goal is to have few external dependencies.
+
+## Dependencies
+- nc (NetCat)
+- date
+- basename
+
+## Compatible shells
+- bash
+- busybox
 
 ## Usage
 
